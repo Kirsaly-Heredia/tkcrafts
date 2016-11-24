@@ -1,0 +1,145 @@
+<form class="ui form" action ="/add" method="post" enctype="multipart/form-data">
+  
+  <h4 class="ui dividing header">Product Category</h4>
+  <div class="fields">
+    <div class="four wide field">
+      <label>Main Category</label>
+      <div class="ui selection dropdown">
+        <input type="text" name="category">
+        <div class="default text">Main Category</div>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <div class="item" data-value="scarves">Scarves</div>
+          <div class="item" data-value="accessories">Accessories</div>
+          <div class="item" data-value="socks">Socks</div>
+          <div class="item" data-value="blankets">Blankets</div>
+        </div>
+      </div>
+    </div>
+    <div class="four wide field">
+      <label>Subcategory</label>
+      <div class="ui selection dropdown">
+        <input type="text" name="subcategory">
+        <div class="default text">Subcategory</div>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <div class="item" data-value="scarves">Infinity Scarf</div>
+          <div class="item" data-value="accessories">Long Scarf</div>
+          <div class="item" data-value="socks">Hat</div>
+          <div class="item" data-value="blankets">Mittens</div>
+          <div class="item" data-value="accessories">Headbands</div>
+          <div class="item" data-value="socks">Ankle Socks</div>
+          <div class="item" data-value="blankets">Calf Socks</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <h4 class="ui dividing header">Product Information</h4>
+  <div class="fields">
+    <div class="three wide field">
+      <label>Product Name</label>
+      <input type="text" name="name" placeholder="Product Name">
+    </div>
+    <div class="two wide field">
+      <label>Product Code</label>
+      <input type="text" name="code" maxlength="5" placeholder="Product Code">
+    </div>
+    <div class="two wide field">
+      <label>Price</label>
+      <input type="text" name="price" placeholder="Price">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="three wide field">
+      <label>Color</label>
+      <input type="text" name="color" placeholder="Color">
+    </div>
+    <div class="two wide field">
+      <label>Size</label>
+      <div class="ui selection dropdown">
+        <input type="text" name="size">
+        <div class="default text">Size</div>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <div class="item" data-value="scarves">Small</div>
+          <div class="item" data-value="accessories">Medium</div>
+          <div class="item" data-value="socks">Large</div>
+          <div class="item" data-value="blankets">One-Size</div>
+        </div>
+      </div>
+    </div>
+    <div class="two wide field">
+      <label>Quantity</label>
+      <div class="ui selection dropdown">
+        <input type="text" name="quantity">
+        <div class="default text">Qty.</div>
+        <i class="dropdown icon"></i>
+        <div class="menu">
+          <div class="item" data-value="1">1</div>
+          <div class="item" data-value="2">2</div>
+          <div class="item" data-value="3">3</div>
+          <div class="item" data-value="4">4</div>
+          <div class="item" data-value="5">5</div>
+          <div class="item" data-value="6">6</div>
+          <div class="item" data-value="7">7</div>
+          <div class="item" data-value="8">8</div>
+          <div class="item" data-value="9">9</div>
+          <div class="item" data-value="10">10</div>
+          <div class="item" data-value="11">11</div>
+          <div class="item" data-value="12">12</div>
+          <div class="item" data-value="13">13</div>
+          <div class="item" data-value="14">14</div>
+          <div class="item" data-value="15">15</div>
+          <div class="item" data-value="16">16</div>
+          <div class="item" data-value="17">17</div>
+          <div class="item" data-value="18">18</div>
+          <div class="item" data-value="19">19</div>
+          <div class="item" data-value="20">20</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <h4 class="ui dividing header">Product Description</h4>
+    <div class="field">
+      <div class="four wide field">
+        <label>Details</label>
+        <textarea rows="2"></textarea>
+      </div>
+    </div>
+  <div class="fields">
+    <div class="two wide field">
+      <label>Material</label>
+      <input type="text" name="material" placeholder="Material">
+    </div>
+    <div class="four wide field">
+      <label>Wash</label>
+      <input type="text" name="wash" placeholder="Washing Instructions">
+    </div>
+    <div class="four wide field">
+      <label>Dry</label>
+      <input type="text" name="dry" placeholder="Drying Instructions">
+    </div>
+  </div>
+  <div class="fields">
+    <div class="three wide field">
+      <label>Width</label>
+      <input type="text" name="width" placeholder="Width(in.)">
+    </div>
+    <div class="three wide field">
+      <label>Length</label>
+      <input type="text" name="length" placeholder="Length(in.)">
+    </div>
+    <div class="three wide field">
+      <label>Circumfrence</label>
+      <input type="text" name="circumfrence" placeholder="Circumfrence(in.)">
+    </div>
+  </div>
+
+
+  <div class="ui button" tabindex="0">Submit Order</div>
+
+</form>
+
